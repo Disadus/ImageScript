@@ -4,7 +4,7 @@
   "description": "zero-dependency javascript image manipulation",
   "main": "ImageScript.js",
   "scripts": {
-    "test": "node ./tests/run.js",
+    "test": "node ./src/tests/run.js",
     "coverage": "nyc --reporter=html npm test"
   },
   "repository": {

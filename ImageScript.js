@@ -1,8 +1,8 @@
-const png = require('./png/node.js');
-const mem = require('./utils/mem.js');
+const png = require('./src/png/node.js');
+const mem = require('./src/utils/mem.js');
 const {version} = require('./package.json');
-const codecs = require('./codecs/node/index.js');
-const { default: v2 } = require('./v2/framebuffer.js');
+const codecs = require('./src/codecs/node/index.js');
+const { default: v2 } = require('./src/v2/framebuffer.js');
 
 // old
 const svglib = require('./wasm/node/svg.js');
